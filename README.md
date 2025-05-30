@@ -52,7 +52,21 @@ Built as a fun and creative MVP to showcase imagination 🧠, AI power 🤖, and
 
 ---
 
+## 🧭 Project Structure
+
 ## 📦 Getting Started
+
+🧭 Project Structure
+phantom-pals/
+├── src/
+│   ├── components/       # UI Components 🧩
+│   ├── pages/            # Pages (Home, Favorites, etc.) 📄
+│   ├── ai/               # LLM interaction logic 🤖
+│   ├── nlp/              # Search intelligence (NLP) 🧠
+│   ├── assets/           # Images, sounds, etc. 🖼️🔊
+│   └── App.jsx
+├── public/
+└── README.md
 
 ```bash
 # 📥 Clone the repo
@@ -68,3 +82,20 @@ echo "VITE_OPENAI_API_KEY=your_api_key_here" > .env
 # 🚀 Start development server
 npm run dev```
 
+✨ Coming Soon
+🧠 User-authored character creator
+
+🌐 Cloud sync with Firebase
+
+🎮 Mini-games with your phantom pals
+
+🤝 Contributing
+Got a cool character idea? 💡 Want to improve the UI? 🎨
+Feel free to open a pull request or issue! Contributions welcome 🙌
+
+📫 Let's Connect
+Built with ❤️ by Christopher Ade Wiyanto
+Open for collaboration, creativity, and coffee chats ☕✨
+
+yaml
+Copy code

@@ -39,24 +39,22 @@ Built as a fun and creative MVP to showcase imagination 🧠, AI power 🤖, and
 
 ## 🛠️ Tech Stack
 
-| ⚙️ Feature         | 🧰 Technology                         |
-|--------------------|--------------------------------------|
-| Frontend UI         | React + Vite ⚡                     |
-| Styling             | Tailwind CSS 🎨                    |
-| Routing             | React Router 🔁                    |
-| Voice Features      | Web Speech API 🎤🗣️               |
-| NLP                 | Compromise.js / Natural.js 🧠      |
-| AI / LLM            | OpenAI API or HuggingFace 🤖       |
-| State Management    | useState / useContext 🧩           |
-| Data Storage        | LocalStorage 💾                    |
+| Feature         | Technology                         |
+|----------------|------------------------------------|
+| Frontend UI    | React + Vite ⚡                   |
+| Styling        | Tailwind CSS 🎨                  |
+| Routing        | React Router 🔁                  |
+| Voice Features | Web Speech API 🎤🗣️             |
+| NLP            | Compromise.js / Natural.js 🧠    |
+| AI / LLM       | OpenAI API or HuggingFace 🤖     |
+| State Management | useState / useContext 🧩        |
+| Data Storage   | LocalStorage 💾                  |
 
 ---
 
 ## 🧭 Project Structure
 
-## 📦 Getting Started
-
-🧭 Project Structure
+```
 phantom-pals/
 ├── src/
 │   ├── components/       # UI Components 🧩
@@ -67,35 +65,108 @@ phantom-pals/
 │   └── App.jsx
 ├── public/
 └── README.md
+```
+
+---
+
+## 📦 Getting Started
+
+### Prerequisites
+- Node.js (v16 or higher)
+- npm or yarn package manager
+
+### Installation
 
 ```bash
-# 📥 Clone the repo
+# 📥 Clone the repository
 git clone https://github.com/yourusername/phantom-pals.git
 cd phantom-pals
 
 # 📦 Install dependencies
 npm install
 
-# 🔐 Add your LLM API key
+# 🔐 Set up environment variables
+# Create a .env file in the root directory
 echo "VITE_OPENAI_API_KEY=your_api_key_here" > .env
 
 # 🚀 Start development server
-npm run dev```
+npm run dev
+```
 
-✨ Coming Soon
-🧠 User-authored character creator
+### Build for Production
 
-🌐 Cloud sync with Firebase
+```bash
+# 🏗️ Build the project
+npm run build
 
-🎮 Mini-games with your phantom pals
+# 🌐 Preview production build
+npm run preview
+```
 
-🤝 Contributing
-Got a cool character idea? 💡 Want to improve the UI? 🎨
-Feel free to open a pull request or issue! Contributions welcome 🙌
+---
 
-📫 Let's Connect
-Built with ❤️ by Christopher Ade Wiyanto
+## 🎯 Usage
+
+1. **Explore Characters**: Browse through different universe categories
+2. **Search**: Use natural language to find specific character types
+3. **Voice Commands**: Click the microphone icon for voice search
+4. **Chat with AI**: Generate new characters or chat with existing ones
+5. **Save Favorites**: Click the heart icon to save your favorite pals
+
+---
+
+## ✨ Coming Soon
+
+- 🧠 User-authored character creator
+- 🌐 Cloud sync with Firebase
+- 🎮 Mini-games with your phantom pals
+- 🌈 More universe categories
+- 📱 Mobile app version
+
+---
+
+## 🤝 Contributing
+
+We welcome contributions! Here's how you can help:
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+### Ideas for Contributions
+- 💡 New character ideas and universes
+- 🎨 UI/UX improvements
+- 🐛 Bug fixes and optimizations
+- 📚 Documentation improvements
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 📫 Contact & Support
+
+**Built with ❤️ by Christopher Ade Wiyanto**
+
+- 🌐 GitHub: [@yourusername](https://github.com/yourusername)
+- 📧 Email: your.email@example.com
+- 💼 LinkedIn: [Your Profile](https://linkedin.com/in/yourprofile)
+
 Open for collaboration, creativity, and coffee chats ☕✨
 
-yaml
-Copy code
+---
+
+## 🙏 Acknowledgments
+
+- Thanks to the open-source community for the amazing tools
+- Inspired by the creativity of anime, fantasy, and gaming communities
+- Special thanks to all contributors and testers
+
+---
+
+*Ready to meet your new phantom pals? Start exploring! 👻✨*
